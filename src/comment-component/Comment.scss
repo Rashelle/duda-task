@@ -1,0 +1,56 @@
+.comment-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: white;
+  border: 1px solid black;
+  box-shadow: 1px 3px gray;
+
+  .publisher-avatar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .comment-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    text-align: left;
+    width: 100%;
+
+    .comment-publisher {
+      max-width: 70%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .comment-content {
+      max-width: 70%;
+      margin-top: 4px;
+      word-break: break-all;
+      white-space: pre-line;
+      color: rgb(146, 144, 144);
+    }
+  }
+
+  .comment-actions {
+    position: absolute;
+    display: flex;
+    top: 5px;
+    right: 5px;
+
+    .edit-button,
+    .delete-button {
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+    }
+    .delete-button {
+      margin-left: 5px;
+    }
+  }
+}

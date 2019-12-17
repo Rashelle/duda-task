@@ -1,0 +1,17 @@
+.reviews-page {
+  max-width: 640px;
+  padding: 10px 20px;
+  background: rgb(218, 218, 218);
+
+  .title {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: rgb(40, 81, 194);
+  }
+}
+* {
+  box-sizing: border-box;
+}
