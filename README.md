@@ -2,12 +2,12 @@ This application was created using create-react-app.
 To run the application, first run:
 first install dependencies with 
 
-##### `yarn build`
+##### `yarn`
 
 also run
 
 ##### `yarn build`
 
-And then run:
+And then:
 
 ##### `yarn start`
